@@ -27,6 +27,10 @@ class carritoP {
             }
         }
     }
-    
 }
+var carritoI:carritoP = carritoP()
+
+var agua:producto = producto(name: "Agua", precio: 10.1, descripcion:"Agua natural",id:0)
+
+var aguaJamaica:producto = producto(name: "Agua de Jamaica", precio: 10.2, descripcion:"Agua sabor Jamaica",id:1)
 

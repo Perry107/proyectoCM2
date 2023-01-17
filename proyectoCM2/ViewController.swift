@@ -9,17 +9,10 @@ import UIKit
 import Foundation
 
 class ViewController: UIViewController {
-    
-    var carritoI:carritoP = carritoP()
-    
-    var agua:producto = producto(name: "Agua", precio: 10.1, descripcion:"Agua natural",id:0)
-    
-    var aguaJamaica:producto = producto(name: "Agua de Jamaica", precio: 10.2, descripcion:"Agua sabor Jamaica",id:1)
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
         carritoI.add(producto: agua)
         carritoI.add(producto: aguaJamaica)
         carritoI.add(producto: agua)
@@ -29,7 +22,18 @@ class ViewController: UIViewController {
         print(carritoI.carrito[0].name)
         print(carritoI.carrito[1].id)
         
+        carritoI.del(producto: agua)
         
+        for (index,producto) in carritoI.carrito.enumerated(){
+            print(index,".",producto.name)
+        }
+        
+        carritoI.add(producto: agua)
+        carritoI.add(producto: aguaJamaica)
+        
+        for (index,producto) in carritoI.carrito.enumerated(){
+            print(index,".",producto.name)
+        }
         
     }
     

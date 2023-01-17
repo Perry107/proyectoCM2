@@ -7,12 +7,31 @@
 
 import UIKit
 
-class OrangeViewController: UIViewController {
-
+class OrangeViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return carritoI.carrito.count
+    }
+        
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = carritoI.carrito[indexPath.row].name
+        
+        return cell
+    }
+    
+    @IBOutlet weak var tablaCarrito: UITableView!
+    
+ 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Titulo"
+        title = "Carrito"
+        
+        tablaCarrito.delegate = self
+        tablaCarrito.dataSource = self
 
         // Do any additional setup after loading the view.
     }
