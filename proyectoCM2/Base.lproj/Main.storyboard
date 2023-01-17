@@ -84,25 +84,11 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="06h-5U-HuN">
-                                        <rect key="frame" x="0.0" y="50" width="240" height="43.333332061767578"/>
+                                        <rect key="frame" x="0.0" y="50" width="240" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="06h-5U-HuN" id="sAH-wU-T7k">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.333332061767578"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3XX-6C-awn">
-                                                    <rect key="frame" x="189" y="10.999999999999998" width="42" height="21.333333333333329"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="3XX-6C-awn" secondAttribute="trailing" constant="-7" id="1Md-dh-7b1"/>
-                                                <constraint firstItem="3XX-6C-awn" firstAttribute="top" secondItem="sAH-wU-T7k" secondAttribute="topMargin" id="DJp-Rb-jkm"/>
-                                                <constraint firstItem="3XX-6C-awn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="sAH-wU-T7k" secondAttribute="leading" constant="20" symbolic="YES" id="MPM-Q5-l69"/>
-                                                <constraint firstItem="3XX-6C-awn" firstAttribute="centerY" secondItem="sAH-wU-T7k" secondAttribute="centerY" id="XBY-mm-iyP"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" systemColor="tintColor"/>
                                     </tableViewCell>
