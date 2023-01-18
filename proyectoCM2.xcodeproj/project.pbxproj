@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB32EFA02978874500DE05B4 /* listaProductos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32EF9F2978874500DE05B4 /* listaProductos.swift */; };
+		FB32EFA22978878000DE05B4 /* listas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32EFA12978878000DE05B4 /* listas.swift */; };
 		FB42921C29772F38002957E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB42921B29772F38002957E4 /* AppDelegate.swift */; };
 		FB42921E29772F38002957E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB42921D29772F38002957E4 /* SceneDelegate.swift */; };
 		FB42922029772F38002957E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB42921F29772F38002957E4 /* ViewController.swift */; };
@@ -15,12 +17,12 @@
 		FB42922829772F3A002957E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB42922629772F3A002957E4 /* LaunchScreen.storyboard */; };
 		FB42923029772FB2002957E4 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB42922F29772FB2002957E4 /* OrangeViewController.swift */; };
 		FB42923229772FC0002957E4 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB42923129772FC0002957E4 /* BlueViewController.swift */; };
-		FB42923429773352002957E4 /* carrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB42923329773352002957E4 /* carrito.swift */; };
 		FB42923629773459002957E4 /* producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB42923529773459002957E4 /* producto.swift */; };
-		FBB6BEEC2978702B0042F487 /* inventario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6BEEB2978702B0042F487 /* inventario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB32EF9F2978874500DE05B4 /* listaProductos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listaProductos.swift; sourceTree = "<group>"; };
+		FB32EFA12978878000DE05B4 /* listas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listas.swift; sourceTree = "<group>"; };
 		FB42921829772F38002957E4 /* proyectoCM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proyectoCM2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB42921B29772F38002957E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB42921D29772F38002957E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,9 +33,7 @@
 		FB42922929772F3A002957E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB42922F29772FB2002957E4 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 		FB42923129772FC0002957E4 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
-		FB42923329773352002957E4 /* carrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carrito.swift; sourceTree = "<group>"; };
 		FB42923529773459002957E4 /* producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = producto.swift; sourceTree = "<group>"; };
-		FBB6BEEB2978702B0042F487 /* inventario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 				FB42922F29772FB2002957E4 /* OrangeViewController.swift */,
 				FB42923129772FC0002957E4 /* BlueViewController.swift */,
 				FB42923529773459002957E4 /* producto.swift */,
-				FB42923329773352002957E4 /* carrito.swift */,
-				FBB6BEEB2978702B0042F487 /* inventario.swift */,
+				FB32EF9F2978874500DE05B4 /* listaProductos.swift */,
+				FB32EFA12978878000DE05B4 /* listas.swift */,
 			);
 			path = proyectoCM2;
 			sourceTree = "<group>";
@@ -153,14 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB42923429773352002957E4 /* carrito.swift in Sources */,
 				FB42923629773459002957E4 /* producto.swift in Sources */,
-				FBB6BEEC2978702B0042F487 /* inventario.swift in Sources */,
 				FB42923029772FB2002957E4 /* OrangeViewController.swift in Sources */,
 				FB42922029772F38002957E4 /* ViewController.swift in Sources */,
+				FB32EFA02978874500DE05B4 /* listaProductos.swift in Sources */,
 				FB42921C29772F38002957E4 /* AppDelegate.swift in Sources */,
 				FB42923229772FC0002957E4 /* BlueViewController.swift in Sources */,
 				FB42921E29772F38002957E4 /* SceneDelegate.swift in Sources */,
+				FB32EFA22978878000DE05B4 /* listas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

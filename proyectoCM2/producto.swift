@@ -14,13 +14,16 @@ class producto {
     var precio: Float
     var descripcion: String
     var cantidad: Int = 1
+    var categoria: Int
     var id: Int
-    
-    init(name: String,precio: Float,descripcion: String,id:Int) {
+
+    init(name: String,precio: Float,descripcion: String,categoria:Int,id:Int) {
         self.name = name
         self.precio = precio
         self.descripcion = descripcion
+        self.categoria = categoria
         self.id = id
+        
     }
     
 }

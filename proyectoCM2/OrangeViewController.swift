@@ -10,20 +10,21 @@ import UIKit
 class OrangeViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return carritoI.carrito.count
+        return carritoL.lista.count
     }
         
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = carritoI.carrito[indexPath.row].name
+        cell.textLabel?.text = carritoL.lista[indexPath.row].name
         
         return cell
     }
     
     @IBOutlet weak var tablaCarrito: UITableView!
     
- 
+    @IBOutlet weak var total: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +33,8 @@ class OrangeViewController: UIViewController, UITableViewDelegate,UITableViewDat
         
         tablaCarrito.delegate = self
         tablaCarrito.dataSource = self
+        
+        total.text = "$100"
 
         // Do any additional setup after loading the view.
     }
