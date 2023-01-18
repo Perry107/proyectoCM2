@@ -13,15 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        carritoI.add(producto: agua)
+        inventarioI.add(producto: agua)
+        inventarioI.add(producto: aguaJamaica)
+
         carritoI.add(producto: aguaJamaica)
         carritoI.add(producto: agua)
-        
-        print("Resultado",carritoI.carrito[1].cantidad)
-        
-        print(carritoI.carrito[0].name)
-        print(carritoI.carrito[1].id)
-        
+         
         carritoI.del(producto: agua)
         
         for (index,producto) in carritoI.carrito.enumerated(){

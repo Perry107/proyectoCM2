@@ -17,6 +17,7 @@
 		FB42923229772FC0002957E4 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB42923129772FC0002957E4 /* BlueViewController.swift */; };
 		FB42923429773352002957E4 /* carrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB42923329773352002957E4 /* carrito.swift */; };
 		FB42923629773459002957E4 /* producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB42923529773459002957E4 /* producto.swift */; };
+		FBB6BEEC2978702B0042F487 /* inventario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB6BEEB2978702B0042F487 /* inventario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FB42923129772FC0002957E4 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		FB42923329773352002957E4 /* carrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carrito.swift; sourceTree = "<group>"; };
 		FB42923529773459002957E4 /* producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = producto.swift; sourceTree = "<group>"; };
+		FBB6BEEB2978702B0042F487 /* inventario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +75,9 @@
 				FB42922929772F3A002957E4 /* Info.plist */,
 				FB42922F29772FB2002957E4 /* OrangeViewController.swift */,
 				FB42923129772FC0002957E4 /* BlueViewController.swift */,
-				FB42923329773352002957E4 /* carrito.swift */,
 				FB42923529773459002957E4 /* producto.swift */,
+				FB42923329773352002957E4 /* carrito.swift */,
+				FBB6BEEB2978702B0042F487 /* inventario.swift */,
 			);
 			path = proyectoCM2;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			files = (
 				FB42923429773352002957E4 /* carrito.swift in Sources */,
 				FB42923629773459002957E4 /* producto.swift in Sources */,
+				FBB6BEEC2978702B0042F487 /* inventario.swift in Sources */,
 				FB42923029772FB2002957E4 /* OrangeViewController.swift in Sources */,
 				FB42922029772F38002957E4 /* ViewController.swift in Sources */,
 				FB42921C29772F38002957E4 /* AppDelegate.swift in Sources */,

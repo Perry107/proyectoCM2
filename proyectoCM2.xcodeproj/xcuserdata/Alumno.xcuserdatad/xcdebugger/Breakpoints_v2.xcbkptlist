@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A595DFF8-E3BE-4454-AD00-018DFB1DCBF9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84F1247B-0EA0-40DA-AE48-C15ADCB54169"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "proyectoCM2/carrito.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "84F1247B-0EA0-40DA-AE48-C15ADCB54169 - cc545a788580d8e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "one-time initialization function for carritoI"
+                  moduleName = "proyectoCM2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alumno/Downloads/proyectoCM2/proyectoCM2/carrito.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  uuid = "84F1247B-0EA0-40DA-AE48-C15ADCB54169 - 34125bfb6ab0f5b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "proyectoCM2.carritoI.unsafeMutableAddressor : proyectoCM2.carritoP"
+                  moduleName = "proyectoCM2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alumno/Downloads/proyectoCM2/proyectoCM2/carrito.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
